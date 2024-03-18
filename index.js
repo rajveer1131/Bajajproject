@@ -6,7 +6,7 @@ app.use(express.json());
 let odd = [];
 let even = [];
 let alphabets = [];
-app.post("/home", (req, res) => {
+app.post("/bfhl", (req, res) => {
   const data = req.body.data;
 
   data.forEach((item) => {
